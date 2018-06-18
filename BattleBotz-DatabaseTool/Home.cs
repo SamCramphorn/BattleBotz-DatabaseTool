@@ -19,7 +19,7 @@ namespace Species
             SqlCommander sqlCommand = new SqlCommander();
             Species.Species species = new Species.Species();
 
-            List<string> query = species.PopulateSpecie();
+            //List<string> query = species.PopulateSpecie();
 
             sqlCommand.AddStuff(query);
         }
